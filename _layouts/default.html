@@ -11,7 +11,10 @@
 <body>
   <header class="site-header">
     <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="site-logo" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/avator.png' | relative_url }}" alt="{{ site.title }}" class="header-avatar">
+        <span class="site-title">{{ site.title }}</span>
+      </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/about' | relative_url }}">About</a>
