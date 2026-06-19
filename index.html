@@ -3,24 +3,40 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <h1>Welcome to {{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+<section class="hero-banner">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <img src="{{ '/assets/avator.png' | relative_url }}" alt="Profile" class="hero-avatar">
+      <h1>Hey, I'm {{ site.github_username }}</h1>
+      <p class="hero-tagline">Developer · Builder · Creator</p>
+      <p class="hero-desc">Welcome to my corner of the web — where I share ideas, projects, and things I'm learning along the way.</p>
+      <div class="hero-links">
+        <a href="{{ '/about' | relative_url }}" class="btn btn-primary">About Me</a>
+        <a href="https://github.com/{{ site.github_username }}" class="btn btn-outline" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="posts">
-  <h2>Latest Posts</h2>
-  <ul class="post-list">
+<section class="posts wrapper">
+  <h2 class="section-title">Latest Posts</h2>
+  <div class="post-grid">
     {% for post in site.posts %}
-      <li>
-        <h3>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h3>
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      </li>
+      <article class="post-card">
+        <div class="post-card-body">
+          <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+        </div>
+      </article>
     {% else %}
-      <p>No posts yet. Check back soon!</p>
+      <div class="empty-state">
+        <p>📝 No posts yet. Check back soon!</p>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </section>
+
