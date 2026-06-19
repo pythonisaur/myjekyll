@@ -1,0 +1,20 @@
+title: My Jekyll Site
+description: A simple Jekyll website deployed on GitHub Pages
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # your GitHub Pages URL
+github_username: yourusername
+
+# Build settings
+markdown: kramdown
+theme: minima # or remove to use a custom theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md

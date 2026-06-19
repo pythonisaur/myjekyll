@@ -1,0 +1,26 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <h1>Welcome to {{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</section>
+
+<section class="posts">
+  <h2>Latest Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h3>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </li>
+    {% else %}
+      <p>No posts yet. Check back soon!</p>
+    {% endfor %}
+  </ul>
+</section>
