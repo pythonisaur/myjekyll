@@ -1,29 +1,129 @@
 ---
 layout: post
-title: "Hello, Jekyll!"
+title: "GitHub ашиглан ҮНЭГҮЙ блог болон вэбсайт хийх заавар"
 date: 2026-06-19
-categories: [jekyll, update]
-author: Your Name
+categories: [jekyll, tutorial]
+author: pythonisaur
 ---
 
-Welcome to your new Jekyll-powered website! This is your first blog post. Jekyll makes it incredibly easy to create and manage a blog or personal website.
+Интернэтэд өөрийн блог, хувийн вэбсайт эсвэл бизнесийн танилцуулга сайттай болохыг хүсдэг ч хостинг болон домэйнд сар болгон мөнгө төлмөөргүй байна уу?
 
-## Why Jekyll?
+Сайн мэдээ гэвэл та **GitHub Pages** ашиглан бүрэн **үнэгүй** вэбсайт ажиллуулах боломжтой. Хэрэв та программист биш байсан ч энэхүү аргыг ашиглан өөрийн блог, портфолио эсвэл жижиг бизнесийн вэбсайтыг хэдхэн минутын дотор үүсгэж болно.
 
-Jekyll is a **static site generator** that takes your content written in Markdown, applies your layouts and templates, and produces a complete static website ready to be served.
+---
 
-### Key Benefits
+## GitHub Pages гэж юу вэ?
 
-- **Simplicity**: Write content in Markdown — no databases, no complex server-side code.
-- **Performance**: Static HTML pages load incredibly fast.
-- **GitHub Pages Integration**: Free hosting with automatic builds.
-- **Customizable**: Full control over your site's layout and design.
+GitHub Pages нь GitHub-аас санал болгодог **үнэгүй вэб хостинг үйлчилгээ** юм. Та өөрийн вэбсайтын файлуудаа GitHub-д байршуулснаар автоматаар интернетэд нийтлэгдэнэ.
 
-## Next Steps
+Жишээ нь:
 
-1. Edit `_config.yml` with your site's details
-2. Create new posts in the `_posts` directory
-3. Customize the layout in `_layouts/`
-4. Push to GitHub to deploy automatically
+- Хувийн блог
+- Портфолио сайт
+- CV / Resume
+- Бизнесийн танилцуулга
+- Сургалтын вэбсайт
+- Баримт бичгийн сайт (Documentation)
 
-Happy blogging! 🎉
+зэрэг олон төрлийн сайтыг үнэгүй ажиллуулж болно.
+
+---
+
+## Яагаад GitHub Pages ашиглах хэрэгтэй вэ?
+
+### 1. Үнэгүй 🆓
+
+Сарын төлбөр байхгүй:
+
+- Хостинг: **0₮**
+- SSL сертификат: **0₮**
+- Серверийн зардал: **0₮**
+
+### 2. Хурдан ⚡
+
+GitHub Pages нь статик сайт ажиллуулдаг тул маш хурдан ачаалдаг.
+
+### 3. Найдвартай 🔒
+
+GitHub бол дэлхийн хамгийн том хөгжүүлэгчдийн платформуудын нэг. Таны сайт өндөр найдвартай орчинд ажиллана.
+
+### 4. Өөрийн домэйн холбох боломжтой 🌐
+
+Хэрэв хүсвэл:
+
+- `myblog.com`
+- `bat.mn`
+- `mybusiness.com`
+
+зэрэг өөрийн домэйнийг холбож болно.
+
+---
+
+## Jekyll гэж юу вэ?
+
+GitHub Pages нь **Jekyll** нэртэй системийг дэмждэг. Jekyll нь **Markdown** хэлбэрээр бичсэн нийтлэлүүдийг автоматаар гоё вэб хуудас болгон хөрвүүлдэг.
+
+Жишээ нь:
+
+```markdown
+# Миний анхны нийтлэл
+
+Сайн байна уу?
+```
+
+гэсэн текст автоматаар мэргэжлийн харагдах блог нийтлэл болж хувирна.
+
+---
+
+## Блог нийтлэл бичих ямар давуу талтай вэ?
+
+Хэрэв та:
+
+- Мэргэжлээ сурталчлах
+- Ажлын туршлагаа хуваалцах
+- Англи хэл сурах
+- Программчлал заах
+- Аяллын тэмдэглэл бичих
+- Хувийн брэндээ хөгжүүлэх
+
+гэж байгаа бол блог маш хүчтэй хэрэгсэл болдог.
+
+> Өнөөдөр олон ажил олгогчид CV-ээс илүү таны бүтээсэн контентыг хардаг болсон.
+
+---
+
+## Хэрхэн эхлэх вэ?
+
+### Алхам 1
+GitHub аккаунт үүсгэнэ.
+
+### Алхам 2
+Шинэ repository үүсгэнэ.
+
+### Алхам 3
+Jekyll template сонгоно.
+
+### Алхам 4
+Нийтлэлээ Markdown ашиглан бичнэ.
+
+### Алхам 5
+GitHub руу push хийхэд сайт автоматаар нийтлэгдэнэ.
+
+---
+
+## Хэн ашиглахад тохиромжтой вэ?
+
+- ✅ Оюутан
+- ✅ Багш
+- ✅ Контент бүтээгч
+- ✅ Фрилансер
+- ✅ Программист
+- ✅ Жижиг бизнес эрхлэгч
+
+---
+
+## Дүгнэлт
+
+Өнөө үед вэбсайттай болохын тулд заавал мөнгө төлөх шаардлагагүй болсон. GitHub Pages болон Jekyll ашигласнаар та хэдхэн минутын дотор өөрийн блог эсвэл вэбсайтыг үнэ төлбөргүй үүсгэж, дэлхий нийтэд хүргэх боломжтой.
+
+Хэрэв та өөрийн мэдлэг, туршлага эсвэл бизнесээ онлайнаар түгээхийг хүсэж байвал өнөөдөр л GitHub Pages ашиглан анхны вэбсайтаа эхлүүлээрэй! 🚀
