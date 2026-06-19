@@ -1,8 +1,9 @@
 title: My Jekyll Site
 description: A simple Jekyll website deployed on GitHub Pages
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # your GitHub Pages URL
-github_username: yourusername
+baseurl: "/myjekyll" # the subpath of your site, e.g. /blog
+url: "https://pythonisaur.github.io" # your GitHub Pages URL
+github_username: pythonisaur
+domain: pythonisaur.github.io
 
 # Build settings
 markdown: kramdown
