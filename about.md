@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<section class="about">
+<section class="about wrapper">
   <h1>About</h1>
   <p>This is a simple Jekyll website hosted on <strong>GitHub Pages</strong>. Jekyll is a static site generator that transforms plain text into beautiful websites and blogs.</p>
 

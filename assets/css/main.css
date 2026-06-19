@@ -66,10 +66,21 @@ main {
   padding: 0 0 60px;
 }
 
+/* ===== Page Sections (About, Post) ===== */
+.about.wrapper,
+.post.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* ===== Hero Banner ===== */
 .hero-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   min-height: 520px;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   display: flex;

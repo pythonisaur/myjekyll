@@ -7,7 +7,6 @@ domain: pythonisaur.github.io
 
 # Build settings
 markdown: kramdown
-theme: minima # or remove to use a custom theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
