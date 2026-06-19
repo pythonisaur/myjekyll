@@ -1,22 +1,80 @@
 ---
 layout: default
-title: About
+title: Миний тухай
 permalink: /about/
 ---
 
 <section class="about wrapper">
-  <h1>About</h1>
-  <p>This is a simple Jekyll website hosted on <strong>GitHub Pages</strong>. Jekyll is a static site generator that transforms plain text into beautiful websites and blogs.</p>
 
-  <h2>Features</h2>
-  <ul>
-    <li>⚡ Fast and lightweight static site</li>
-    <li>📝 Blog-ready with Markdown support</li>
-    <li>🎨 Clean, minimal design</li>
-    <li>🚀 Free hosting on GitHub Pages</li>
-    <li>🔧 Easy to customize and extend</li>
-  </ul>
+# Миний тухай
 
-  <h2>Getting Started</h2>
-  <p>To customize this site, edit the <code>_config.yml</code> file and update the content in the <code>_posts</code> folder. Create new posts by adding Markdown files with the format <code>YYYY-MM-DD-title.md</code>.</p>
+Сайн байна уу,
+
+Би **дата инженер**, **хиймэл оюун ухааны автоматжуулалтын мэргэжилтэн** бөгөөд технологийг энгийн хүмүүст ойлгомжтой, бодит амьдралд хэрэгтэй байдлаар хүргэх зорилготой контент бүтээгч.
+
+Олон хүн хиймэл оюун ухаан, вэбсайт бүтээх, автоматжуулалт, онлайн орлого олох боломжуудыг зөвхөн программистуудад зориулсан гэж боддог. Харин миний зорилго бол эдгээр хүчирхэг хэрэгслүүдийг **хүн бүр** ашиглаж болохыг харуулах явдал юм.
+
+---
+
+## Миний блогоос юу олж унших вэ?
+
+### 🤖 Хиймэл оюун ухаан (AI)
+
+- ChatGPT
+- NotebookLM
+- Claude
+- Gemini
+- AI Agent
+- AI Automation
+- Шинэ AI түүлүүд (tools)
+
+зэрэг орчин үеийн хэрэгслүүдийг хэрхэн үр дүнтэй ашиглах талаар.
+
+### 🚀 Бүтээмж
+
+Өдөр тутмын ажлаа хялбарчлах:
+
+- Автоматжуулалт
+- Цаг хэмнэх арга
+- Ажлын урсгал сайжруулах зөвлөмж
+- Дижитал хэрэгслүүд
+
+### 🌐 Үнэгүй вэбсайт ба технологи
+
+- GitHub Pages
+- Jekyll
+- Vercel
+- Cloud үйлчилгээ
+- Үнэгүй онлайн хэрэгслүүд
+
+ашиглан бага зардлаар эсвэл үнэ төлбөргүй бүтээх шийдлүүд.
+
+### 💡 Практик гарын авлага
+
+Алхам алхмаар зааварчилгаа, бодит жишээ, туршлага дээр суурилсан нийтлэлүүд.
+
+---
+
+## Миний зорилго
+
+Монгол хүн бүр технологийн давуу талыг ашиглаж, илүү бүтээмжтэй ажиллаж, шинэ боломжуудыг нээхэд туслах.
+
+> Технологи бол зөвхөн инженерүүдийн хэрэгсэл биш.
+>
+> **Технологи бол хүн бүрийн хэрэгсэл.**
+
+---
+
+## Намайг дагах
+
+📺 **YouTube:** [Эхлэл YouTube суваг](https://www.youtube.com/@%D1%8D%D1%85%D0%BB%D1%8D%D0%BB)
+
+📘 **Facebook:** [Эхлэл Facebook хуудас](https://www.facebook.com/profile.php?id=61578156027045)
+
+Шинэ технологи, хиймэл оюун ухаан, бүтээмжийн зөвлөгөө, үнэгүй хэрэгслүүдийн талаар тогтмол контент хүлээн авахыг хүсвэл надтай нэгдээрэй.
+
+---
+
+*"Технологийг хүн бүрт хүртээмжтэй болгоё."*
+
 </section>
