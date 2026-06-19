@@ -4,7 +4,7 @@ title: Миний тухай
 permalink: /about/
 ---
 
-
+<div class="about wrapper">
 
 # Миний тухай
 
@@ -77,4 +77,4 @@ permalink: /about/
 
 *"Технологийг хүн бүрт хүртээмжтэй болгоё."*
 
-
+</div>
