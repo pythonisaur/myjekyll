@@ -5,10 +5,10 @@ date: 2026-06-19
 categories: [jekyll, tutorial]
 author: pythonisaur
 tags: [GitHub Pages, Jekyll, үнэгүй хостинг, блог, вэбсайт]
-image: /assets/free_blog.png
+image: /myjekyll/assets/free_blog.png
 ---
 
-![GitHub ашиглан үнэгүй блог ба вэбсайт](/assets/free_blog.png)
+![GitHub ашиглан үнэгүй блог ба вэбсайт](/myjekyll/assets/free_blog.png)
 
 Интернэтэд өөрийн блог, хувийн вэбсайт эсвэл бизнесийн танилцуулга сайттай болохыг хүсдэг ч хостинг болон домэйнд сар болгон мөнгө төлмөөргүй байна уу?
 
