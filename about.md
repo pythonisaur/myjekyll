@@ -4,7 +4,7 @@ title: Миний тухай
 permalink: /about/
 ---
 
-<div class="about wrapper">
+<div class="about wrapper" markdown="1">
 
 # Миний тухай
 
