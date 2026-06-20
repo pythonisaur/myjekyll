@@ -346,6 +346,15 @@ main {
   font-weight: 600;
 }
 
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 24px auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
 /* ===== About Page ===== */
 .about h1 {
   font-size: 2rem;
