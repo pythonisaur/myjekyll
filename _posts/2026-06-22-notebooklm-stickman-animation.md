@@ -5,7 +5,10 @@ date: 2026-06-22
 categories: [AI, tutorial]
 author: pythonisaur
 tags: [NotebookLM, Stickman, анимейшн, YouTube, AI, контент бүтээх]
+image: /myjekyll/assets/AI_Viral_Content_Production_Pipeline.png
 ---
+
+![AI Viral Content Production Pipeline](/myjekyll/assets/AI_Viral_Content_Production_Pipeline.png)
 
 YouTube суваг нээж, өөрийн контентоо түгээх хүсэлтэй ч зураг авалт, эвлүүлэг, дуу оруулалт гээд хэтэрхий их цаг ордог уу? Тэгвэл эдгээр асуудлыг хэрхэн хиймэл оюун ухааны (AI) тусламжтайгаар шийдэж, Viral болох Stickman видео бүтээх "pipeline" буюу дамжлагыг хэрхэн угсрахыг сурцгаая.
 
