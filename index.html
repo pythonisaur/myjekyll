@@ -23,6 +23,11 @@ title: Home
   <div class="post-grid">
     {% for post in site.posts %}
       <article class="post-card">
+        {% if post.image %}
+          <a href="{{ post.url | relative_url }}" class="post-card-image-link">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-card-image">
+          </a>
+        {% endif %}
         <div class="post-card-body">
           <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <h3>
