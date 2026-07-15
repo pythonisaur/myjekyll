@@ -6,6 +6,11 @@ github_username: pythonisaur
 domain: pythonisaur.github.io
 logo: /assets/avator.png
 
+# Google Analytics (GA4) — sends traffic to the datalogichub GA4 property,
+# so page views show up in the DataLogicHub admin analytics panel.
+# Only loaded when JEKYLL_ENV=production (see _includes/analytics.html).
+google_analytics: G-LN408Y008X
+
 # Build settings
 markdown: kramdown
 plugins:
